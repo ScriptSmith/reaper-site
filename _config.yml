@@ -1,1 +1,5 @@
-theme: jekyll-theme-leap-day
+theme: jekyll-theme-slate
+title: Reaper
+description: Social Media scraping tool
+show_downloads: "false"
+repository: ScriptSmith/reaper
