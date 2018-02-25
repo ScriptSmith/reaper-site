@@ -1,5 +1,6 @@
 theme: jekyll-theme-slate
 title: Reaper
 description: Social Media scraping tool
-show_downloads: "false"
+show_downloads: false
 repository: ScriptSmith/reaper
+google_analytics: UA-79900226-2
