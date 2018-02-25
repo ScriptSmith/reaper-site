@@ -58,7 +58,7 @@ To create an app. Navigate to [https://apps.twitter.com](https://apps.twitter.co
 
 ![](images/twitter1.png)
 
-On the next page, fill in the details and click `Create yout Twitter Application`
+On the next page, fill in the details and click `Create your Twitter Application`
 
 ![](images/twitter2.png)
 
