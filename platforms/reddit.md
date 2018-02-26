@@ -14,7 +14,7 @@ The Reddit API uses OAuth to authenticate requests. This means you have to regis
 
 ## Creating an app
 
-To create a Reddit app, sign in and navigate to [https://www.reddit.com/prefs/apps/](https://www.reddit.com/prefs/apps/). At the bottom of the page, click the button the create an app.
+To create a Reddit app, sign in and navigate to [https://www.reddit.com/prefs/apps/](https://www.reddit.com/prefs/apps/). At the bottom of the page, click the button to create an app.
 
 Fill in the details and click `create app`
 
