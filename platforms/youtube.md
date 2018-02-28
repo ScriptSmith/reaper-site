@@ -23,7 +23,11 @@ Click the button to enable the YouTube Data API
 
 ![](images/youtube2.png)
 
-If you are prompted to create credentials, then do so. If not, click the `Credentials` tab on the left, click the `Create credentials` button, then click `API key`
+If you are prompted to create credentials, then do so.
+
+![](images/youtube5.png)
+
+If not, click the `Credentials` tab on the left, click the `Create credentials` button, then click `API key`
 
 ![](images/youtube3.png)
 
