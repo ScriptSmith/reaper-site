@@ -1,7 +1,7 @@
 # YouTube
 To download data from YouTube, you should make use of the [YouTube Data API](https://developers.google.com/youtube/v3/)
 
-Most public information on YouTube can be accessed over the Data API. The only limitation is that there is a limit to the number of free queries you can perform per month.
+Most public information on YouTube can be accessed over the Data API. The only limitation is that there is a cap to the number of free queries you can perform per month.
 
 To see a list of all possible endpoints on the Data API, visit the reference: [https://developers.google.com/youtube/v3/docs/](https://developers.google.com/youtube/v3/docs/)
 
