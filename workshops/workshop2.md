@@ -302,7 +302,7 @@ When it has been launched, it will open a window in your browser that looks like
 
 Now, watch the following videos to see some demonstrations of common uses of OpenRefine:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yNccGtn3Wb0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/B70J_H_zAWM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cO8NVCs_Ba0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
