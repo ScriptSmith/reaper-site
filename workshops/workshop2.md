@@ -242,7 +242,7 @@ Not all files that describe text are the same. Some files like word documents ar
 You may have heard that everything on computers is just 1s and 0s, which is true. In text files, these 1s and 0s represent binary integers. For example, in ASCII the decimal number `97` is `1100001` in binary and represents `a`.
 
 ##### Note
-Binary numbers are numbers in base 2, the numbers you use in day to day are base 10.
+Binary numbers are numbers in base 2, the numbers you use day to day are base 10.
 
 |Binary|Decimal|
 |------|-------|
