@@ -200,7 +200,7 @@ When saved as CSV files, the following tables are exactly the same:
 |blake|55947385|
 |rosie|58203458|
 
-<table style="margin-top: -80px">
+<table>
 <tr><td>name</td><td>phone</td></tr>
 <tr><td>blake</td><td>55947385</td></tr>
 <tr><td>rosie</td><td>58203458</td></tr>
