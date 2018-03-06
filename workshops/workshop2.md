@@ -103,6 +103,7 @@ CSV files contain one line of text per record of data (except when they don't), 
 Confused? Lets break that down.
 
 **1. CSV files contain one line of text per row of data**
+
 This is true in most cases. Consider the following file:
 
 ```CSV
@@ -159,6 +160,7 @@ When we want double quotes to not be ignored, we wrap them in double quotes
 
 
 **2. Commas seperate each column**
+
 Similar logic is applied when seperating columns.
 
 To have a table like this:
