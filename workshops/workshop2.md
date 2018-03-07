@@ -214,7 +214,7 @@ CSV files do not need column headings, and there is no way to tell whether the f
 
 Create a CSV file that describes the following people:
 
-|field|value|
+|column|value|
 |---|-----|
 |id|1|
 |first|Georgiana|
@@ -225,7 +225,7 @@ Create a CSV file that describes the following people:
 |birthday||
 |message|Bill says that "You're in big trouble, mister"|
 
-|field|value|
+|column|value|
 |---|-----|
 |id|2|
 |first|Darby|
