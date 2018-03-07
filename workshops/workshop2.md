@@ -223,7 +223,7 @@ Create a CSV file that describes the following people:
 |coords|50.6211008, 24.4598077|
 |last|Croke|
 |birthday||
-|message|Bill says that "You're in big trouble, mister"|
+|message|Bill says that "You're in big trouble"|
 
 |column|value|
 |---|-----|
@@ -232,9 +232,13 @@ Create a CSV file that describes the following people:
 |last|Whitney|
 |birthday|09-04-1999|
 |coords|21.8480091, -78.1165309|
-|message|I left the keys in the mailbox, cya!|
+|message|I left the keys in the mailbox|
 |email|dwhitney1@fc2.com|
 |website|http://mysql.com/phasellus/in.jsp?tellus=luctus&nisi=ultricies&eu=eu&orci=nibh&mauris=quisque&lacinia=id&sapien=justo&quis=sit&libero=amet&nullam=sapien&sit=dignissim&amet=vestibulum&turpis=vestibulum&elementum=ante&ligula=ipsum&vehicula=primis&consequat=in&morbi=faucibus&a=orci&ipsum=luctus&integer=et&a=ultrices&nibh=posuere&in=cubilia&quis=curae&justo=nulla&maecenas=dapibus&rhoncus=dolor&aliquam=vel&lacus=est&morbi=donec|
+
+If using a Mac, you can use textEdit, if using windows, you can use notepad.
+
+*Note for mac users: in textedit you need to enable raw text mode (`Command` + `Shift` + `t`) and disable smart quotes ( Edit -> Substitutions -> Uncheck smart quotes)*
 
 ## Text files
 Not all files that describe text are the same. Some files like word documents are a mix of markup and binary data. Raw text files are made up of just what you'd think, raw text.
