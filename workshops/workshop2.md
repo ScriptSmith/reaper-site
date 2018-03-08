@@ -299,11 +299,13 @@ When it has been launched, it will open a window in your browser that looks like
 
 Now, watch the following videos to see some demonstrations of common uses of OpenRefine:
 
+Note that these are examples of workflows with messy data. Your data will be more structured, but any user-submitted content will still be messy.
+
+Additionally, in this course you are not expected to do any programming like in the videos. You are welcome to learn, but it is not a requirement. If we do need you to use code, we will supply it and you will be able to copy and paste it into OpenRefine.
+
 <iframe width="560" height="315" src="https://www.youtube.com/embed/B70J_H_zAWM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cO8NVCs_Ba0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/5tsyz3ibYzk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 Then have a quick read through each of the following pages to learn how to use OpenRefine. You can refer back to them when completing the final tasks
 
