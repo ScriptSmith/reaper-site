@@ -214,31 +214,16 @@ CSV files do not need column headings, and there is no way to tell whether the f
 
 Create a CSV file that describes the following people:
 
-|column|value|
-|---|-----|
-|id|1|
-|first|Georgiana|
-|email|gcroke0@cornell.edu|
-|website|http://disqus.com/consequat.jpg?eget=lectus&massa=aliquam&tempor=sit&convallis=amet&nulla=diam&neque=in&libero=magna&convallis=bibendum&eget=imperdiet&eleifend=nullam&luctus=orci&ultricies=pede&eu=venenatis&nibh=non&quisque=sodales&id=sed&justo=tincidunt&sit=eu&amet=felis&sapien=fusce&dignissim=posuere&vestibulum=felis&vestibulum=sed&ante=lacus&ipsum=morbi&primis=sem&in=mauris&faucibus=laoreet&orci=ut&luctus=rhoncus&et=aliquet&ultrices=pulvinar&posuere=sed&cubilia=nisl&curae=nunc&nulla=rhoncus&dapibus=dui&dolor=vel|
-|coords|50.6211008, 24.4598077|
-|last|Croke|
-|birthday||
-|message|Bill says that "You're in big trouble"|
+Maggie Smith was born on the 28th of December, 1934. She is an actress. She is 1m, 65cm tall
+Bill Withers was born on 04/07/1938. He is a singer / songwriter.
 
-|column|value|
-|---|-----|
-|id|2|
-|first|Darby|
-|last|Whitney|
-|birthday|09-04-1999|
-|coords|21.8480091, -78.1165309|
-|message|I left the keys in the mailbox|
-|email|dwhitney1@fc2.com|
-|website|http://mysql.com/phasellus/in.jsp?tellus=luctus&nisi=ultricies&eu=eu&orci=nibh&mauris=quisque&lacinia=id&sapien=justo&quis=sit&libero=amet&nullam=sapien&sit=dignissim&amet=vestibulum&turpis=vestibulum&elementum=ante&ligula=ipsum&vehicula=primis&consequat=in&morbi=faucibus&a=orci&ipsum=luctus&integer=et&a=ultrices&nibh=posuere&in=cubilia&quis=curae&justo=nulla&maecenas=dapibus&rhoncus=dolor&aliquam=vel&lacus=est&morbi=donec|
+What columns shoud you use?
 
 If using a Mac, you can use textEdit, if using windows, you can use notepad.
 
 *Note for mac users: in textedit you need to enable raw text mode (`Command` + `Shift` + `t`) and disable smart quotes ( Edit -> Substitutions -> Uncheck smart quotes)*
+
+Please don't try to open the files in Excel, as Excel will sometimes break valid CSV files. Never assume data you see in Excel is an accurate representation of the data in a file.
 
 ## Text files
 Not all files that describe text are the same. Some files like word documents are a mix of markup and binary data. Raw text files are made up of just what you'd think, raw text.
