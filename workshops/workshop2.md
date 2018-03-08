@@ -334,7 +334,7 @@ Then have a quick read through each of the following pages to learn how to use O
 6. Save it as an excel file called maccas_posts.xlsx
 
 #### Task 4b
-1. Use Reaper to download 200 HTML comments based on relevence from the last 50 videos on the YouTube channel "Smarter Every Day" to a single file. Note that you may have to download one set of data before you can create the second. Ensure that each comment has a column describing what video it is from
+1. Use Reaper to download 200 HTML comments based on relevence from the last 50 videos on the YouTube channel "UC8VkNBOwvsTlFjoSnNSMmxw" to a single file. Note that you may have to download one set of data before you can create the second. Ensure that each comment has a column describing what video it is from
 2. Import the data into OpenRefine
 3. Identify the column `snippet.topLevelComment.snippet.textOriginal` containing the HTML text of each comment, and tranform the cells to unescape HTML entities
 4. Cluster all the comments based on their text. Only cluster comments with more than 3 Rows in Cluster
