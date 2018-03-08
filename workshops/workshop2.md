@@ -265,8 +265,7 @@ Use the ASCII table above to read the following binary data:
 
 You can use text as an input into Reaper.
 
-Previously you have been downloading data by giving Reaper a single node to look into (like the YouTube video id `o0Yc81t732k
-`) . You can also use Reaper to read a list of nodes from a file to queue up and download.
+Previously you have been downloading data by giving Reaper a single node to look into (like the YouTube video id `o0Yc81t732k`) . You can also use Reaper to read a list of nodes from a file to queue up and download.
 
 ![](img/test.png)
 
