@@ -277,15 +277,15 @@ To do this, click the spyglass button in Reaper and read data from the window th
 
 *id.videoId* is the case-sensitive name of a column in a CSV file
 
-You can also append the data to an existing file, and add the data you've read as a new column called primary_key
+You can also append the data to an existing file, and add the data you're reading input from as a new column called primary_key
 
 ![](img/3.png)
 
-This means that you can create a single big file from multiple inputs that are still identifiable.
+This means that you can create a single big file from multiple inputs, and include the id of the input node for each row of data.
 
 If you want to create one big file: give the file an ordinary name.
 
-If you want to create many smaller files: give the file a name containing the text `{key}` which will be replaced by whatever is being read from the file.
+If you want to create many smaller files: give the file a name containing the text `{key}` which will be replaced by whatever is being read from the input file.
 
 ## OpenRefine
 
