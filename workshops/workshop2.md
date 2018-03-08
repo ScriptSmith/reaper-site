@@ -254,10 +254,10 @@ Binary numbers are numbers in base 2, the numbers you use day to day are base 10
 |1|1|
 |10|2|
 |11|3|
-|101|4|
-|110|5|
-|111|6|
-|1000|7|
+|100|4|
+|101|5|
+|110|6|
+|111|7|
 |...|...|
 
 ASCII is one of the first standards for 'character encoding' and was spawned from the same standards used to communicate through the telegraph. ASCII text has a bit width of 7. This means that every ASCII character is represented as a binary number between `0000000` and `1111111`. You can see them all in an ASCII table:
