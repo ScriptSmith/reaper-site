@@ -263,11 +263,18 @@ Use the ASCII table above to read the following binary data:
 
 ## Reaper
 
-You can use text as an input into Reaper. Previously you have been downloading data by giving Reaper a single node to look into. You can also use Reaper to read a list of nodes from a file to queue up and download. Reaper can read plain UTF-8 text files, as well as CSV files. This means that you can download something from Reaper, and then use that data as input to download more data.
+You can use text as an input into Reaper.
+
+Previously you have been downloading data by giving Reaper a single node to look into. You can also use Reaper to read a list of nodes from a file to queue up and download.
+
+![](img/test.png)
+
+Reaper can read plain UTF-8 text files, as well as CSV files. This means that you can download something from Reaper, and then use that data as input to download more data.
 
 To do this, click the spyglass button in Reaper and read data from the window that opens.
 
 ![](img/2.png)
+
 *id.videoId* is the case-sensitive name of a column in a CSV file
 
 You can also append the data to an existing file, and add the data you've read as a new column called primary_key
