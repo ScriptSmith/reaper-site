@@ -214,7 +214,8 @@ CSV files do not need column headings, and there is no way to tell whether the f
 
 Create a CSV file that describes the following people:
 
-Maggie Smith was born on the 28th of December, 1934. She is an actress. She is 1m, 65cm tall
+Maggie Smith was born on the 28th of December, 1934. She is an actress. She is 1m, 65cm tall.
+
 Bill Withers was born on 04/07/1938. He is a singer / songwriter.
 
 What columns shoud you use?
