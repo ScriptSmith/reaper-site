@@ -94,8 +94,8 @@ What would go in the table below?
 
 |from.name|from.id|message|created_time|comments.summary.order|comments.summary.total_count|comments.summary.can_comment|id|
 |-|-|-|-|-|-|-|-|
-|||||||||
-|||||||||
+|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|
+|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|<input type="text">|
 
 ## CSV properties
 CSV files contain one line of text per record of data (except when they don't), which are seperated by commas for each column (except when they aren't), and the first row represents the column headings (except when it doesn't).
