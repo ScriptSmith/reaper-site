@@ -335,4 +335,4 @@ Finally, after you've created projects for the tasks below, try exploring all th
 2. Import the data into OpenRefine
 3. Identify the column `snippet.topLevelComment.snippet.textOriginal` containing the HTML text of each comment, and tranform the cells to unescape HTML entities
 4. Cluster all the comments based on their text. Only cluster comments with more than 3 Rows in Cluster
-5. Do a Custom Tabular Export to download a CSV file containing only the columns for the topLevelComment's author name, like count, and original text
+5. Save the file by doing a Custom Tabular Export to download a CSV file containing only the columns for the topLevelComment's author name, like count, and original text
