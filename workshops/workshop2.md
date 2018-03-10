@@ -327,7 +327,7 @@ Finally, after you've created projects for the tasks below, try exploring all th
 2. Import the data into OpenRefine
 3. Split the `created_time` column into 1 column containing the year and month, and another into the rest of the time data
 4. Remove all the columns except the column containing the year and month, and the `message` column
-5. Make all the message text lower-case
+5. Transform the message text to lower-case
 6. Save it as an excel file called maccas_posts.xlsx
 
 #### Task 4b
