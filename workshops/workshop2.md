@@ -325,7 +325,7 @@ Finally, after you've created projects for the tasks below, try exploring all th
 #### Task 4a
 1. Use Reaper to download the last 500 posts made on the Mcdonalds Australia Facebook page
 2. Import the data into OpenRefine
-3. Split the `created_time` column into 1 column containing the year and month, and another into the rest of the time data
+3. Split the `created_time` column by length into 1 column containing the year and month, and another into the rest of the time data
 4. Remove all the columns except the column containing the year and month, and the `message` column
 5. Transform the message text to lower-case
 6. Save it as an excel file called maccas_posts.xlsx
