@@ -220,6 +220,10 @@ Bill Withers was born on 04/07/1938. He is a singer / songwriter.
 
 What columns shoud you use?
 
+You can do this in the box below, or try using software on your computer.
+
+<input type="textarea">
+
 If using a Mac, you can use textEdit, if using windows, you can use notepad.
 
 *Note for mac users: in textedit you need to enable raw text mode (`Command` + `Shift` + `t`) and disable smart quotes ( Edit -> Substitutions -> Uncheck smart quotes)*
