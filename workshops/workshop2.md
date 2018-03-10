@@ -222,7 +222,7 @@ What columns shoud you use?
 
 You can do this in the box below, or try using software on your computer.
 
-<input type="textarea">
+<textarea></textarea>
 
 If using a Mac, you can use textEdit, if using windows, you can use notepad.
 
