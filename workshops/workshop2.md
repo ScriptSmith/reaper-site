@@ -318,6 +318,8 @@ Then have a quick read through each of the following pages to learn how to use O
 - [https://github.com/OpenRefine/OpenRefine/wiki/Exporters](https://github.com/OpenRefine/OpenRefine/wiki/Exporters)
 - [https://github.com/OpenRefine/OpenRefine/wiki/History](https://github.com/OpenRefine/OpenRefine/wiki/History)
 
+Finally, after you've created projects for the tasks below, try exploring all the options available to you when hovering over the arrows next to columns.
+
 ### Task 4
 
 #### Task 4a
