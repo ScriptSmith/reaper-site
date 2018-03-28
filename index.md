@@ -13,8 +13,8 @@ Download social media data - no coding required
     
 # Download
 - Windows
-    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.3.0/reaper-setup.exe)
-    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.3.0/reaper-standalone.zip)
+    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.4.0/reaper-setup.exe)
+    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.4.0/reaper-standalone.zip)
 - MacOS High Sierra
-    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.3.0/Reaper.pkg)
-    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.3.0/reaper-app.zip)
+    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.4.0/Reaper.pkg)
+    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.4.0/reaper-app.zip)
