@@ -51,6 +51,8 @@ From the `My Apps` menu select `Add a New App`
 
 ![](images/facebook5.png)
 
+*If you don't see a My Apps menu, click the blue `Get Started` button instead*
+
 Fill in the details of the new app, then click `Create App ID`
 
 Once you app has been created, navigate back to [https://developers.facebook.com/tools/explorer/](https://developers.facebook.com/tools/explorer/) and click the dropdown menu that says `Graph API Exlporer`
