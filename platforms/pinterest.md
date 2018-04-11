@@ -15,7 +15,7 @@ Start by navigating to [https://developers.pinterest.com/apps/](https://develope
 
 ![](images/pinterest1.png)
 
-On the next page, in the Redirect URIs textbox, put in *https://scriptsmith.github.io/reaper-site/redirect*, press enter, and then save your changes
+On the next page, in the Redirect URIs textbox, put in *https://scriptsmith.github.io/reaper-site/redirect.html*, press enter, and then save your changes
 
 ![](images/pinterest2.png)
 
