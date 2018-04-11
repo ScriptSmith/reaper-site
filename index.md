@@ -1,7 +1,7 @@
 # Reaper
 Download social media data - no coding required
 
-![](images/input.png)
+![](images/preview.gif)
 
 # Help & Tutorials
 - [Using Reaper](guide.md)
