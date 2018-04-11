@@ -4,6 +4,8 @@ Reaper currently supports the following platforms:
 - Twitter
 - Reddit
 - YouTube
+- Pintrest
+- Tumblr
 
 # Future Platforms
 Future platforms that Reaper will support include:
@@ -13,8 +15,6 @@ Future platforms that Reaper will support include:
 - Imgur
 - LinkedIn
 - Meetup
-- Pintrest
-- Tumblr
 - Twitch
 - VK
 

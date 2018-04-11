@@ -10,6 +10,8 @@ Download social media data - no coding required
     - [Twitter](platforms/twitter.md)
     - [Reddit](platforms/reddit.md)
     - [YouTube](platforms/youtube.md)
+    - [Tumblr](platforms/tumblr.md)
+    - [Pinterest](platforms/pinterest.md)
     
 # Download
 - Windows
