@@ -1,9 +1,9 @@
 # Pinterest
-To download data from Pinterest, you should make use of the [PinterestAPI](https://developers.pinterest.com/docs/getting-started/introduction/)
+To download data from Pinterest, you should make use of the [Pinterest API](https://developers.pinterest.com/docs/getting-started/introduction/)
 
-Most public information on Pinterest can be accessed over the Data API.
+Your own information is accessible through their API. If you obtain approval from pinterest, most public information can be accessed through their API.
 
-To see a list of all possible endpoints on the Data API, visit the reference: [https://developers.google.com/youtube/v3/docs/](https://developers.pinterest.com/docs/api/overview/)
+To see a list of all possible endpoints on the Data API, visit the reference: [https://developers.pinterest.com/docs/api/overview/](https://developers.pinterest.com/docs/api/overview/)
 
 The reference will also explain what information you can get out of the *User*, *Board*, and *Pin* endpoints.
 
