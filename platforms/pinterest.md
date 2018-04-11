@@ -3,7 +3,7 @@ To download data from Pinterest, you should make use of the [Pinterest API](http
 
 Your own information is accessible through their API. If you obtain approval from pinterest, most public information can be accessed through their API.
 
-To see a list of all possible endpoints on the Data API, visit the reference: [https://developers.pinterest.com/docs/api/overview/](https://developers.pinterest.com/docs/api/overview/)
+To see a list of all possible endpoints on the API, visit the reference: [https://developers.pinterest.com/docs/api/overview/](https://developers.pinterest.com/docs/api/overview/)
 
 The reference will also explain what information you can get out of the *User*, *Board*, and *Pin* endpoints.
 
@@ -11,11 +11,11 @@ The reference will also explain what information you can get out of the *User*, 
 
 To scrape data from the Pinterest API, you will need to create an app.
 
-Start by signing in to Pinterest and navigating to [https://developers.pinterest.com/apps/](https://developers.pinterest.com/apps/) and creating an app
+Start by signing in to Pinterest, navigating to [https://developers.pinterest.com/apps/](https://developers.pinterest.com/apps/) and creating an app
 
 ![](images/pinterest1.png)
 
-On the next page, in the Redirect URIs textbox, put in *https://scriptsmith.github.io/reaper-site/redirect.html*, press enter, and then save your changes
+On the next page, in the Redirect URIs textbox, put in *https://scriptsmith.github.io/reaper-site/redirect.html* then press enter and then save your changes
 
 ![](images/pinterest2.png)
 
@@ -33,7 +33,7 @@ Now click this button and accept the request permissions:
 <script>
 function auth() {
     client_id = document.getElementById('appid').value;
-    window.open("https://api.pinterest.com/oauth/?response_type=code&client_id=" + client_id + "&state=reaper&scope=read_public,write_public,read_relationships,write_relationships&redirect_uri=https://scriptsmith.github.io/reaper-site/redirect")
+    window.open("https://api.pinterest.com/oauth/?response_type=code&client_id=" + client_id + "&state=reaper&scope=read_public,write_public,read_relationships,write_relationships&redirect_uri=https://scriptsmith.github.io/reaper-site/redirect.html")
 }
 
 function post() {
