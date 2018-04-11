@@ -11,7 +11,7 @@ The reference will also explain what information you can get out of the *Blog* a
 
 To scrape data from the Tumblr API, you will need to create an app.
 
-Start by signing in to Pinterest, navigating to [https://www.tumblr.com/oauth/apps](https://www.tumblr.com/oauth/apps) and creating an app
+Start by signing in to Tmblr, navigating to [https://www.tumblr.com/oauth/apps](https://www.tumblr.com/oauth/apps) and creating an app
 
 ![](images/tumblr1.png)
 
