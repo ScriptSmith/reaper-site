@@ -32,9 +32,9 @@ Now click this button:
 
 <script>
 function auth() {
-client_id = document.getElementById('appid').value;
-
-window.open("https://api.pinterest.com/oauth/?response_type=code&client_id=" + client_id + "&state=reaper&scope=read_public,write_public,read_relationships,write_relationships&redirect_uri=https://scriptsmith.github.io/reaper-site/redirect")
+    client_id = document.getElementById('appid').value;
+    window.open("https://api.pinterest.com/oauth/?response_type=code&client_id=" + client_id + "&state=reaper&scope=read_public,write_public,read_relationships,write_relationships&redirect_uri=https://scriptsmith.github.io/reaper-site/redirect")
+}
 </script>
 
 <button onclick="auth()">Click me</button>
