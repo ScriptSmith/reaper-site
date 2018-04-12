@@ -15,7 +15,11 @@ Start by signing in to Pinterest, navigating to [https://developers.pinterest.co
 
 ![](images/pinterest1.png)
 
-On the next page, in the Redirect URIs textbox, put in *https://scriptsmith.github.io/reaper-site/redirect.html* then press enter and then save your changes
+On the next page, in the Redirect URIs textbox, put in:
+
+`https://scriptsmith.github.io/reaper-site/redirect.html`
+
+Then press enter and save your changes
 
 ![](images/pinterest2.png)
 
