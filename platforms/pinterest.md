@@ -80,3 +80,9 @@ When it appears, copy the access token below into Reaper:
 <div id="accesstoken" style="background-color: grey"></div>
 
 ![](images/pinterest3.png)
+
+## A note on access to profile information
+
+To request a list of boards belonging to a user, you can use the **User -> Boards** node. This will only work with your own user (`me` or `your.username`), you can't request a list of boards from other users.
+
+However, if you want to scrape the information about or the pins belonging to a known board (as in, you know the name of the board) then you can download it for any user that has made that board public.
