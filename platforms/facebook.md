@@ -82,3 +82,7 @@ The Graph API gives public access to some useful data such as the posts and comm
 If you want to access this private data you can request an access token from an administrator.
 
 You can also ask a Page administrator to give you an 'Analyst' role. An analyst can see information about a page, but they cannot act on its behalf. You can read about this process [here](https://blogs.constantcontact.com/facebook-page-admin-roles/)
+
+## A note on using Reaper with Facebook
+
+Reaper exposes access to nearly every part of the Facebook Graph API, however for any given token you won't be able to use every single function, or access every single field in Reaper. Some data is unavailable because you don't have permission to access it, or because you weren't the one to create it. If this is the case, no data will download and Reaper will present you with an error. If you'd like to know the permissions you need to download certain data, you should read the Graph API Reference: [https://developers.facebook.com/docs/graph-api/reference/](https://developers.facebook.com/docs/graph-api/reference/)
