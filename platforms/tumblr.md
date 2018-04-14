@@ -1,5 +1,5 @@
 # Tumblr
-To download data from Pinterest, you should make use of the [Tumblr API](https://www.tumblr.com/docs/en/api/v2)
+To download data from Tumblr, you should make use of the [Tumblr API](https://www.tumblr.com/docs/en/api/v2)
 
 Most public data on Tumblr is available over the API.
 
