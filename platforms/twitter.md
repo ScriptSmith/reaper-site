@@ -11,7 +11,7 @@ There are restrictions to the type and amount of data that you can gather with t
 |Enterprise|30-day Search API|30 days|Premium operators|Included|Full|
 |Enterprise|Full-archive Search API|Tweets from as early as 2006|Premium operators|Included|Full|
 
-**Reaper only supports the Standard Search API. Note that this means you can only access tweets from the last 7 days for a given search. You can also only access the last 3200 tweets for a given user.**
+**Reaper only supports the Standard Search API. Note that this means you can only access a sampling of tweets from the last 7 days for a given search. You can also only access the last 3200 tweets for a given user.**
 
 The standard search api makes use of regular operators, here are some examples:
 
