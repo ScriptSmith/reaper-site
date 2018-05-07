@@ -35,7 +35,7 @@ Sign in and get an access token by clicking the button below
 <script>
 // Only works after `FB.init` is called
 function myFacebookLogin() {
-  FB.login(function(){}, {scope: 'manage_pages'});
+  FB.login(function(){}, {scope: ''});
 }
 </script>
 <button onclick="myFacebookLogin()">Login with Facebook</button>
