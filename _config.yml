@@ -4,3 +4,6 @@ description: Social Media scraping tool
 show_downloads: false
 repository: ScriptSmith/reaper
 google_analytics: UA-79900226-2
+webrick:
+  headers:
+    Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
