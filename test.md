@@ -39,7 +39,7 @@ function scrapePage() {
 		console.log(response);
 		var text = "";
 		if ('error' in response) {
-			text = '<h3>Error occurred<h3>' + response['error']['message'];
+			text = '<h3>Error occurred</h3>' + response['error']['message'];
 		} else {
 			text = '<h3>Data</h3>' + JSON.stringify(response['data']);
 		}
