@@ -36,6 +36,7 @@ This tool uses the Facebook Graph API to look at the posts on public facebook pa
 function scrapePage() {
 	var page = document.getElementById('page').value;
 	FB.api(page + '/posts', function(response) {
+		console.log(response);
 		document.getElementById('response').innerHTML = response;
 	})
 }
