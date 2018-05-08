@@ -29,6 +29,7 @@ function myFacebookLogin() {
 </script>
 
 This tool uses the Facebook Graph API to look at the posts on public facebook pages. After signing in below, enter the name or id of the page that you would like to scrape.
+
 <button onclick="myFacebookLogin()">Sign in with Facebook</button>
 
 <script>
@@ -36,7 +37,7 @@ function scrapePage() {
 	var page = document.getElementById('page').value;
 	FB.api(page + '/posts', function(response) {
 		document.getElementById('response').innerHTML = response;
-	}
+	})
 }
 </script>
 
