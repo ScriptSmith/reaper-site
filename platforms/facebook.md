@@ -9,37 +9,6 @@ To see a list of all possible endpoints on the Graph API, visit the reference: [
 
 The reference will also explain what information you can get out of a given endpoint.
 
-## Sign in
-Sign in and get an access token by clicking the button below
-
-
-<script>
-  window.fbAsyncInit = function() {
-    FB.init({
-      appId            : '948109978690942',
-      autoLogAppEvents : true,
-      xfbml            : true,
-      version          : 'v3.0'
-    });
-  };
-
-  (function(d, s, id){
-     var js, fjs = d.getElementsByTagName(s)[0];
-     if (d.getElementById(id)) {return;}
-     js = d.createElement(s); js.id = id;
-     js.src = "https://connect.facebook.net/en_US/sdk.js";
-     fjs.parentNode.insertBefore(js, fjs);
-   }(document, 'script', 'facebook-jssdk'));
-</script>
-
-<script>
-// Only works after `FB.init` is called
-function myFacebookLogin() {
-  FB.login(function(){}, {scope: ''});
-}
-</script>
-<button onclick="myFacebookLogin()">Login with Facebook</button>
-
 ## Access tokens
 Access tokens are long strings of data that act in a way that's similar to a password. They look like this:
 
