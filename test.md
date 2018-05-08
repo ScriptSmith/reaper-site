@@ -20,7 +20,6 @@
 </script>
 
 <script>
-// Only works after `FB.init` is called
 function myFacebookLogin() {
   FB.login(function(){
 	document.getElementById('query').style.display = 'block';
@@ -35,15 +34,23 @@ This tool uses the Facebook Graph API to look at the posts on public facebook pa
 <script>
 function scrapePage() {
 	var page = document.getElementById('page').value;
-	FB.api(page + '/posts', function(response) {
+	var args = documnt.getElementById('args').value;
+	FB.api(page + '/posts?' + args, function(response) {
 		console.log(response);
-		document.getElementById('response').innerHTML = response;
+		var text = "";
+		if ('error' in response) {
+			text = '<h3>Error occurred<h3>' + response['message'];
+		} else {
+			text = '<h3>Data</h3>' + JSON.stringify(response['data']);
+		}
+		document.getElementById('response').innerHTML = text;
 	})
 }
 </script>
 
 <div id='query' style='display: none'>
-	Public Page to scrape: <input type='text' id='page'>
+	Public Page to scrape: <input type='text' id='page' value='mcdonaldsau'><br>
+	Query Arguments: <input type='text' id='args'><br>
 	<button onclick='scrapePage()'>Scrape</button>
 	<div id='response'></div>
 </div>
