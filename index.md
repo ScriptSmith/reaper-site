@@ -12,6 +12,7 @@ Download social media data - no coding required
     - [YouTube](platforms/youtube.md)
     - [Tumblr](platforms/tumblr.md)
     - [Pinterest](platforms/pinterest.md)
+- [Excel date formulas](excel.md)
     
 # Download
 - Windows
