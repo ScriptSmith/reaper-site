@@ -3,6 +3,12 @@ Download social media data - no coding required
 
 ![](images/preview.gif)
 
+<style>
+li ul {
+    margin-bottom: 0;
+}
+</style>
+
 # Help & Tutorials
 - [Using Reaper](guide.md)
 - [Platforms](platforms/list.md)
