@@ -4,7 +4,7 @@ Terms and Conditions ("Terms")
 Last updated: May 12, 2018
 
 Please read these Terms and Conditions ("Terms", "Terms and Conditions")
-carefully before using the https://reaper.social website (the "Service")
+carefully before using the reaper.social website (the "Service")
 operated by Reaper ("us", "we", or "our").
 
 Your access to and use of the Service is conditioned on your acceptance of and
