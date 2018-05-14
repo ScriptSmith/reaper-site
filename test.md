@@ -49,7 +49,7 @@ function scrapePage() {
 </script>
 
 <div id='query' style='display: none'>
-	Public Page to scrape: <input type='text' id='page' value='mcdonaldsau'><br>
+	Public Page to scrape: <input type='text' id='page' value='evacumate'><br>
 	Query Arguments: <input type='text' id='args'><br>
 	<button onclick='scrapePage()'>Scrape</button>
 	<div id='response'></div>
