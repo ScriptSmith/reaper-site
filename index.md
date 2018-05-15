@@ -22,8 +22,8 @@ li ul {
     
 # Download
 - Windows
-    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.5.3/reaper-setup.exe)
-    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.5.3/reaper-standalone.zip)
+    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.5.4/reaper-setup.exe)
+    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.5.4/reaper-standalone.zip)
 - MacOS High Sierra
-    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.5.3/Reaper.pkg)
-    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.5.3/reaper-app.zip)
+    - [Installer](https://github.com/ScriptSmith/reaper/releases/download/v2.5.4/Reaper.pkg)
+    - [Standalone](https://github.com/ScriptSmith/reaper/releases/download/v2.5.4/reaper-app.zip)
