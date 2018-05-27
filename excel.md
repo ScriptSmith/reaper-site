@@ -21,7 +21,7 @@ Cell name: <input type="text" placeholder='C2' id='cell' onkeyup='calcFormula()'
 
 
 Date: <input type='text' id='date' value='Hi'> <button onclick='copy(date)'>Copy to clipboard</button><br>
-Time: <input type='text' id='time' value='Hi'> <button onclick='copy(time)'>Copy to clipboard</button>
+Time: <input type='text' id='time' value='Hi'> <button onclick='copy(time)'>Copy to clipboard</button><br>
 DateTime: <input type='text' id='datetime' value='Hi'> <button onclick='copy(datetime)'>Copy to clipboard</button>
 
 <script>
