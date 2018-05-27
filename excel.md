@@ -22,12 +22,14 @@ Cell name: <input type="text" placeholder='C2' id='cell' onkeyup='calcFormula()'
 
 Date: <input type='text' id='date' value='Hi'> <button onclick='copy(date)'>Copy to clipboard</button><br>
 Time: <input type='text' id='time' value='Hi'> <button onclick='copy(time)'>Copy to clipboard</button>
+DateTime: <input type='text' id='datetime' value='Hi'> <button onclick='copy(datetime)'>Copy to clipboard</button>
 
 <script>
 var platform = document.getElementById('platform');
 var cell = document.getElementById('cell');
 var date = document.getElementById('date');
 var time = document.getElementById('time');
+var datetime = document.getElementById('datetime');
 
 function copy(element) {
     element.select();
@@ -38,6 +40,7 @@ function calcFormula() {
     var valSplit = platform.options[platform.selectedIndex].value.split("|")
     date.value = valSplit[0].replace(/%%/g, cell.value);
     time.value = valSplit[1].replace(/%%/g, cell.value);
+    datetime.value = date.value + " + " + time.value;
 }
 calcFormula();
 </script>
