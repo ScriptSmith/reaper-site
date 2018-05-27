@@ -7,11 +7,11 @@ Rather than figuring them out yourself, you can get them from this page.
 ## 1. Choose your platform
 
 <select id='platform' onchange='calcFormula()'>
-  <option value="=DATE(MID(%%,1,4),MID(%%,6,2),MID(%%,9,2))|=TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">Facebook</option>
-  <option value="=DATE(MID(%%,27,4),MONTH(DATEVALUE(MID(%%,5,3)&1)),MID(%%,9,2))|=TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">Twitter</option>
-  <option value="=(((%%/60)/60)/24)+DATE(1970,1,1)|=(%%/86400)+25569">Reddit</option>
-  <option value="=DATE(MID(%%,1,4),MID(%%,6,2),MID(%%,9,2))|=TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">YouTube</option>
-  <option value="=DATE(MID(%%,1,4),MID(%%,6,2),MID(%%,9,2))|=TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">Tumblr</option>
+  <option value="DATE(MID(%%,1,4),MID(%%,6,2),MID(%%,9,2))|TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">Facebook</option>
+  <option value="DATE(MID(%%,27,4),MONTH(DATEVALUE(MID(%%,5,3)&1)),MID(%%,9,2))|TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">Twitter</option>
+  <option value="(((%%/60)/60)/24)+DATE(1970,1,1)|(%%/86400)+25569">Reddit</option>
+  <option value="DATE(MID(%%,1,4),MID(%%,6,2),MID(%%,9,2))|TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">YouTube</option>
+  <option value="DATE(MID(%%,1,4),MID(%%,6,2),MID(%%,9,2))|TIME(MID(%%,12,2),MID(%%,15,2),MID(%%,18,2))">Tumblr</option>
 </select>
 
 ## 2. Type the name of your cell
@@ -38,9 +38,9 @@ function copy(element) {
 
 function calcFormula() {
     var valSplit = platform.options[platform.selectedIndex].value.split("|")
-    date.value = valSplit[0].replace(/%%/g, cell.value);
-    time.value = valSplit[1].replace(/%%/g, cell.value);
-    datetime.value = date.value + " + " + time.value;
+    date.value = '=' + valSplit[0].replace(/%%/g, cell.value);
+    time.value = '=' + valSplit[1].replace(/%%/g, cell.value);
+    datetime.value = valSplit[0].replace(/%%/g, cell.value) + " + " + valSplit[1].replace(/%%/g, cell.value);
 }
 calcFormula();
 </script>
