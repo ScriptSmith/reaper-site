@@ -40,7 +40,7 @@ function calcFormula() {
     var valSplit = platform.options[platform.selectedIndex].value.split("|")
     date.value = '=' + valSplit[0].replace(/%%/g, cell.value);
     time.value = '=' + valSplit[1].replace(/%%/g, cell.value);
-    datetime.value = valSplit[0].replace(/%%/g, cell.value) + " + " + valSplit[1].replace(/%%/g, cell.value);
+    datetime.value = '=' + valSplit[0].replace(/%%/g, cell.value) + " + " + valSplit[1].replace(/%%/g, cell.value);
 }
 calcFormula();
 </script>
