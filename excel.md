@@ -1,6 +1,6 @@
-# Excel date formulas
+# Excel date & time formulas
 
-In order to interpret the columns that contain date information from each of the platforms that Reaper supports, you need to apply specific forumulas.
+In order to interpret the columns that contain temporal information from each of the platforms that Reaper supports, you need to apply specific forumulas.
 
 Rather than figuring them out yourself, you can get them from this page.
 
