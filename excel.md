@@ -24,6 +24,8 @@ Date: <input type='text' id='date' value='Hi'> <button onclick='copy(date)'>Copy
 Time: <input type='text' id='time' value='Hi'> <button onclick='copy(time)'>Copy to clipboard</button><br>
 DateTime: <input type='text' id='datetime' value='Hi'> <button onclick='copy(datetime)'>Copy to clipboard</button>
 
+You may need to apply cell formatting after pasting the formula
+
 <script>
 var platform = document.getElementById('platform');
 var cell = document.getElementById('cell');
